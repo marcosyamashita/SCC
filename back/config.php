@@ -25,9 +25,9 @@ $_SESSION['login_erro'] = false;
  
 // Variáveis da conexão
 $base_dados  = 'contratos';
-$usuario_bd  = 'contratos';
-$senha_bd    = 'contratos2020';
-$host_db     = 'mariadb.crediembrapa.com.br';
+$usuario_bd  = 'root';
+$senha_bd    = '';
+$host_db     = 'localhost';
 $charset_db  = 'UTF8';
 $conexao_pdo = null;
 
